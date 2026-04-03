@@ -1,0 +1,6 @@
+| scenario | model | num_samples | mean_signed_delta | mean_abs_delta | treated_signed_delta | treated_abs_delta | untreated_signed_delta | untreated_abs_delta | step_1_signed_delta | step_1_abs_delta | step_12_signed_delta | step_12_abs_delta | step_last_signed_delta | step_last_abs_delta | gate_mean_factual | gate_mean_counterfactual | gate_mean_delta |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| query_shock | dynamic | 64 | 0.0003 | 0.0016 | 0.0400 | 0.0688 | -0.0004 | 0.0006 | 0.0007 | 0.0013 | 0.0003 | 0.0015 | 0.0002 | 0.0019 | 0.4137 | 0.4136 | -0.0001 |
+| query_shock | static | 64 | 0.0000 | 0.0002 | 0.0015 | 0.0096 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | -0.0001 | 0.0001 | 0.0004 | 0.0004 | nan | nan | nan |
+| speed_reduction | dynamic | 64 | -0.0242 | 0.0503 | -1.5427 | 1.8952 | 0.0004 | 0.0203 | -0.0484 | 0.0613 | -0.0271 | 0.0477 | -0.0171 | 0.0529 | 0.4137 | 0.4137 | -0.0001 |
+| speed_reduction | static | 64 | -0.0339 | 0.0575 | -1.9902 | 2.2709 | -0.0021 | 0.0215 | -0.0554 | 0.0712 | -0.0376 | 0.0555 | -0.0271 | 0.0576 | nan | nan | nan |

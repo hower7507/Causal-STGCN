@@ -1,0 +1,2 @@
+dynamic_graph_source,snapshot_count,snapshot_stride,graph_window,edge_jaccard,physical_recall,dynamic_precision,edge_persistence,temporal_variation,num_physical_edges,num_dynamic_edges
+granger_rolling_cached:A_dynamic_granger_roll_500nodes_lag3_k15_f1p5_stride96_hist672.npz,62,96,672,0.3872053872053872,0.6330275229357798,0.4992764109985528,0.002255607990173896,0.00020044451607848814,545.0,691.0

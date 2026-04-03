@@ -1,0 +1,13 @@
+{
+  "run_id": "seed42_A_traffic_only_H36",
+  "seed": 42,
+  "mode": "A_traffic_only",
+  "view_key": "traffic_only",
+  "H": 36,
+  "lambda": 0.0,
+  "best_val_loss": 0.3369815879397922,
+  "model": "STGCN",
+  "saved_at": "2026-03-15T18:53:04.532663",
+  "graph_alignment": {},
+  "probe_summary": {}
+}

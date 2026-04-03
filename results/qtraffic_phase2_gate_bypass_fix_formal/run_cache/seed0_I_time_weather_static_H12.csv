@@ -1,0 +1,6 @@
+mode,view_key,H_trained,report_step,lambda,model,best_val_loss,use_dyn,MAE,RMSE,MAPE,keep%,seed
+I_time_weather_static,traffic_time_weather,12,12,0.0,STGCN,0.27702177233166164,False,3.886610507965088,6.031853675842285,0.15298070013523102,100.0,0
+I_time_weather_static,traffic_time_weather,12,12,0.0,DCRNN,0.2712495293882158,False,3.910405158996582,6.068368434906006,0.16032125055789948,100.0,0
+I_time_weather_static,traffic_time_weather,12,12,0.0,HA,,False,4.389371395111084,6.7794318199157715,0.17981813848018646,100.0,0
+I_time_weather_static,traffic_time_weather,12,12,0.0,ARIMA,,False,4.06311559677124,6.376037120819092,0.16455253958702087,100.0,0
+I_time_weather_static,traffic_time_weather,12,12,0.0,LastValue,,False,4.8844895362854,7.872481346130371,0.18883347511291504,100.0,0

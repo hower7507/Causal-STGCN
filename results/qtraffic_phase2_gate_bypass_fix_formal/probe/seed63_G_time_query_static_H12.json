@@ -1,0 +1,8 @@
+{
+  "run_id": "seed63_G_time_query_static_H12",
+  "mode": "G_time_query_static",
+  "probe_summary": {
+    "local_node_std": 0.09291454404592514,
+    "local_node_abs_mean": 0.39838382601737976
+  }
+}

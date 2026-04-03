@@ -1,0 +1,9 @@
+{
+  "run_id": "seed84_J_time_weather_causal_H12",
+  "mode": "J_time_weather_causal",
+  "probe_summary": {
+    "global_node_std": 0.0,
+    "global_node_abs_mean": 0.024011000990867615,
+    "gate_mean": 0.4887719452381134
+  }
+}

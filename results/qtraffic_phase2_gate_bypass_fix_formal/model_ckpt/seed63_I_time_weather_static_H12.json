@@ -1,0 +1,16 @@
+{
+  "run_id": "seed63_I_time_weather_static_H12",
+  "seed": 63,
+  "mode": "I_time_weather_static",
+  "view_key": "traffic_time_weather",
+  "H": 12,
+  "lambda": 0.0,
+  "best_val_loss": 0.2757137533691194,
+  "model": "STGCN",
+  "saved_at": "2026-03-16T16:46:20.816776",
+  "graph_alignment": {},
+  "probe_summary": {
+    "global_node_std": 0.0,
+    "global_node_abs_mean": 0.01565563678741455
+  }
+}

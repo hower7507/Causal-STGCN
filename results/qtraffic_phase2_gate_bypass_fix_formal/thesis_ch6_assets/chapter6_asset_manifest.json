@@ -1,0 +1,40 @@
+{
+  "result_dir": "E:\\Person\\Casual_STGCN_test\\results\\qtraffic_phase2_gate_bypass_fix_formal",
+  "output_root": "E:\\Person\\Casual_STGCN_test\\results\\qtraffic_phase2_gate_bypass_fix_formal\\thesis_ch6_assets",
+  "figures": [
+    "fig6_1_top_models_mae.png",
+    "fig6_2_key_gains_mae.png",
+    "fig6_3_graph_diagnostics.png",
+    "fig6_4_gate_behavior.png",
+    "fig6_5_impact_summary.png",
+    "fig6_6_impact_hops.png",
+    "fig6_7_impact_trajectories.png"
+  ],
+  "tables_csv": [
+    "table6_1_best_positions.csv",
+    "table6_2_key_gains.csv",
+    "table6_3_graph_diagnostics.csv",
+    "table6_4_lag_summary.csv",
+    "table6_5_gate_summary_selected.csv",
+    "table6_6_impact_summary.csv",
+    "table6_7_impact_hops.csv"
+  ],
+  "tables_md": [
+    "table6_1_best_positions.md",
+    "table6_2_key_gains.md",
+    "table6_3_graph_diagnostics.md",
+    "table6_4_lag_summary.md",
+    "table6_5_gate_summary_selected.md",
+    "table6_6_impact_summary.md",
+    "table6_7_impact_hops.md"
+  ],
+  "sources": {
+    "summary": "summary_multi_20260317_143236.csv",
+    "effects": "effects_multi_20260317_143236.csv",
+    "graph": "graph_diagnostics_20260317_143236.csv",
+    "auc": "rolling_auc_proxy_20260317_143621.csv",
+    "lag": "lag_summary_diagnostics_20260317_143621.csv",
+    "gate": "gate_summary_diagnostics_20260317_143621.csv",
+    "impact_dir": "impact_case_h36_seed0"
+  }
+}

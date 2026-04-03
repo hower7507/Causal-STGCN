@@ -1,0 +1,8 @@
+{
+  "run_id": "seed42_I_time_weather_static_H12",
+  "mode": "I_time_weather_static",
+  "probe_summary": {
+    "global_node_std": 0.0,
+    "global_node_abs_mean": 0.032225705683231354
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "seed0_B_traffic_time_H12",
+  "seed": 0,
+  "mode": "B_traffic_time",
+  "view_key": "traffic_time",
+  "H": 12,
+  "lambda": 0.0,
+  "best_val_loss": 0.2829698854022556,
+  "model": "STGCN",
+  "saved_at": "2026-03-14T19:30:57.160903",
+  "graph_alignment": {},
+  "probe_summary": {}
+}

@@ -1,0 +1,270 @@
+{
+  "saved_at": "2026-03-17T14:25:40.838237",
+  "device": "cuda",
+  "use_fast": false,
+  "dynamic_graph_source": "granger_rolling_cached:A_dynamic_granger_roll_500nodes_lag3_k15_f1p5_stride96_hist672.npz",
+  "dynamic_graph_eval_mode": "past_only",
+  "snapshot_count": 62,
+  "snapshot_end_times_preview": [
+    11,
+    95,
+    191,
+    287,
+    383,
+    479,
+    575,
+    671,
+    767,
+    863
+  ],
+  "topology_overlap_proxy": {
+    "edge_jaccard": 0.3872053872053872,
+    "physical_recall": 0.6330275229357798,
+    "dynamic_precision": 0.4992764109985528,
+    "edge_persistence": 0.002255607990173896,
+    "temporal_variation": 0.00020044451607848814,
+    "num_physical_edges": 545.0,
+    "num_dynamic_edges": 691.0
+  },
+  "state_meta": {
+    "updated_at": "2026-03-17T06:17:44.585909",
+    "epochs": 80,
+    "lambdas": [
+      0.0,
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0
+    ],
+    "completed_settings": 100,
+    "completed_seeds": [
+      0,
+      21,
+      42,
+      63,
+      84
+    ],
+    "selected_modes": [
+      "A_traffic_only",
+      "B_traffic_time",
+      "C_traffic_time_query",
+      "D_traffic_causal",
+      "E_traffic_time_causal",
+      "F_traffic_time_query_static",
+      "G_time_query_static",
+      "H_time_query_causal",
+      "I_time_weather_static",
+      "J_time_weather_causal"
+    ],
+    "selected_horizons": [
+      12,
+      36
+    ]
+  },
+  "modes": {
+    "A_traffic_only": {
+      "name": "A_traffic_only",
+      "view_key": "traffic_only",
+      "use_dyn": false,
+      "model_label": "STGCN",
+      "desc": "Traffic only + static graph"
+    },
+    "B_traffic_time": {
+      "name": "B_traffic_time",
+      "view_key": "traffic_time",
+      "use_dyn": false,
+      "model_label": "STGCN",
+      "desc": "Traffic + time + static graph"
+    },
+    "C_traffic_time_query": {
+      "name": "C_traffic_time_query",
+      "view_key": "traffic_time_weather_query",
+      "use_dyn": true,
+      "model_label": "CausalSTGCN",
+      "desc": "Legacy C name; full local query + global weather + dynamic graph"
+    },
+    "D_traffic_causal": {
+      "name": "D_traffic_causal",
+      "view_key": "traffic_only",
+      "use_dyn": true,
+      "model_label": "CausalSTGCN",
+      "desc": "Traffic only + dynamic graph"
+    },
+    "E_traffic_time_causal": {
+      "name": "E_traffic_time_causal",
+      "view_key": "traffic_time",
+      "use_dyn": true,
+      "model_label": "CausalSTGCN",
+      "desc": "Traffic + time + dynamic graph"
+    },
+    "F_traffic_time_query_static": {
+      "name": "F_traffic_time_query_static",
+      "view_key": "traffic_time_weather_query",
+      "use_dyn": false,
+      "model_label": "STGCN",
+      "desc": "Legacy F name; full local query + global weather + static graph"
+    },
+    "G_time_query_static": {
+      "name": "G_time_query_static",
+      "view_key": "traffic_time_query",
+      "use_dyn": false,
+      "model_label": "STGCN",
+      "desc": "Traffic + time + query + static graph"
+    },
+    "H_time_query_causal": {
+      "name": "H_time_query_causal",
+      "view_key": "traffic_time_query",
+      "use_dyn": true,
+      "model_label": "CausalSTGCN",
+      "desc": "Traffic + time + query + dynamic graph"
+    },
+    "I_time_weather_static": {
+      "name": "I_time_weather_static",
+      "view_key": "traffic_time_weather",
+      "use_dyn": false,
+      "model_label": "STGCN",
+      "desc": "Traffic + time + weather + static graph"
+    },
+    "J_time_weather_causal": {
+      "name": "J_time_weather_causal",
+      "view_key": "traffic_time_weather",
+      "use_dyn": true,
+      "model_label": "CausalSTGCN",
+      "desc": "Traffic + time + weather + dynamic graph"
+    }
+  },
+  "config": {
+    "qtraffic_dir": "./data/qtraffic",
+    "project_root": "/root",
+    "seq_len": 12,
+    "horizons": [
+      12,
+      36
+    ],
+    "report_steps": [
+      12,
+      36
+    ],
+    "target_feature_idx": 0,
+    "slot_minutes": 15,
+    "train_ratio": 0.7,
+    "val_ratio": 0.1,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 80,
+    "grad_clip": 5.0,
+    "early_stop_patience": 12,
+    "epoch_ckpt_enabled": true,
+    "epoch_ckpt_save_every": 1,
+    "epoch_ckpt_restore_rng": false,
+    "epoch_ckpt_keep_finished": false,
+    "hidden": 64,
+    "blocks": 2,
+    "kt": 3,
+    "dilation_base": 2,
+    "dropout": 0.3,
+    "diffusion_K": 2,
+    "use_backward_diffusion": true,
+    "y_null_val": 0.0,
+    "mape_min_denom": 1.0,
+    "lambdas_full": [
+      0.0,
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0
+    ],
+    "lambdas_fast": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "dynamic_graph_mode": "granger_rolling",
+    "dynamic_graph_eval_mode": "past_only",
+    "graph_snapshot_stride": 96,
+    "graph_history_window": 672,
+    "granger_max_lag": 3,
+    "granger_neighbor_topk": 15,
+    "granger_f_threshold": 1.5,
+    "granger_min_seg_len": 64,
+    "granger_cache_enabled": true,
+    "run_baseline_ha": true,
+    "run_baseline_arima": true,
+    "run_baseline_dcrnn": true,
+    "dcrnn_use_dyn": false,
+    "dcrnn_hidden": 32,
+    "dcrnn_epochs": 40,
+    "dcrnn_patience": 8,
+    "arima_p": 3,
+    "channel_schema": {
+      "traffic_only": {
+        "feature_names": [
+          "speed"
+        ],
+        "main_channels": 1,
+        "local_ext_channels": 0,
+        "global_ext_channels": 0
+      },
+      "traffic_time": {
+        "feature_names": [
+          "speed",
+          "time_sin",
+          "time_cos",
+          "day_sin",
+          "day_cos"
+        ],
+        "main_channels": 5,
+        "local_ext_channels": 0,
+        "global_ext_channels": 0
+      },
+      "traffic_time_weather": {
+        "feature_names": [
+          "speed",
+          "time_sin",
+          "time_cos",
+          "day_sin",
+          "day_cos",
+          "temperature",
+          "wind_speed"
+        ],
+        "main_channels": 5,
+        "local_ext_channels": 0,
+        "global_ext_channels": 2
+      },
+      "traffic_time_query": {
+        "feature_names": [
+          "speed",
+          "time_sin",
+          "time_cos",
+          "day_sin",
+          "day_cos",
+          "query"
+        ],
+        "main_channels": 5,
+        "local_ext_channels": 1,
+        "global_ext_channels": 0
+      },
+      "traffic_time_weather_query": {
+        "feature_names": [
+          "speed",
+          "time_sin",
+          "time_cos",
+          "day_sin",
+          "day_cos",
+          "query",
+          "temperature",
+          "wind_speed"
+        ],
+        "main_channels": 5,
+        "local_ext_channels": 1,
+        "global_ext_channels": 2
+      }
+    },
+    "result_dir": "./results/qtraffic_phase2_gate_bypass_fix_formal"
+  }
+}

@@ -1,0 +1,6 @@
+mode,view_key,H_trained,report_step,lambda,model,best_val_loss,use_dyn,MAE,RMSE,MAPE,keep%,seed
+J_time_weather_causal,traffic_time_weather,12,12,1.0,CausalSTGCN,0.27176927195654976,True,3.891848087310791,6.1209716796875,0.15240755677223206,100.0,42
+J_time_weather_causal,traffic_time_weather,12,12,0.0,DCRNN,0.27064712511168587,False,3.915081739425659,6.046578884124756,0.16082428395748138,100.0,42
+J_time_weather_causal,traffic_time_weather,12,12,0.0,HA,,False,4.389371395111084,6.7794318199157715,0.17981813848018646,100.0,42
+J_time_weather_causal,traffic_time_weather,12,12,0.0,ARIMA,,False,4.06311559677124,6.376037120819092,0.16455253958702087,100.0,42
+J_time_weather_causal,traffic_time_weather,12,12,0.0,LastValue,,False,4.8844895362854,7.872481346130371,0.18883347511291504,100.0,42

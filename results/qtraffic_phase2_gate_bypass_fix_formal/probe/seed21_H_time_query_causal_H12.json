@@ -1,0 +1,9 @@
+{
+  "run_id": "seed21_H_time_query_causal_H12",
+  "mode": "H_time_query_causal",
+  "probe_summary": {
+    "local_node_std": 0.01504003070294857,
+    "local_node_abs_mean": 0.2316468209028244,
+    "gate_mean": 9.983708150684834e-05
+  }
+}

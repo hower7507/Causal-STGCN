@@ -1,0 +1,11 @@
+mode,view_key,H_trained,report_step,lambda,model,best_val_loss,use_dyn,MAE,RMSE,MAPE,keep%,seed
+F_traffic_time_query_static,traffic_time_weather_query,36,12,0.0,STGCN,0.2950206134054396,False,3.8504507541656494,5.973830699920654,0.15405870974063873,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,36,0.0,STGCN,0.2950206134054396,False,4.1663126945495605,6.42741060256958,0.17112094163894653,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,12,0.0,DCRNN,0.30865269237094456,False,3.887852907180786,5.960439205169678,0.16115200519561768,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,36,0.0,DCRNN,0.30865269237094456,False,4.4584808349609375,6.933562755584717,0.187944233417511,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,12,0.0,HA,,False,4.420600891113281,6.825934410095215,0.18181109428405762,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,36,0.0,HA,,False,4.366766452789307,6.768595218658447,0.18092548847198486,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,12,0.0,ARIMA,,False,4.085697650909424,6.4136528968811035,0.16608335077762604,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,36,0.0,ARIMA,,False,4.513814449310303,7.000955104827881,0.1857883632183075,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,12,0.0,LastValue,,False,4.908753871917725,7.917966842651367,0.1903935670852661,100.0,21
+F_traffic_time_query_static,traffic_time_weather_query,36,36,0.0,LastValue,,False,6.927804946899414,10.531035423278809,0.26274025440216064,100.0,21

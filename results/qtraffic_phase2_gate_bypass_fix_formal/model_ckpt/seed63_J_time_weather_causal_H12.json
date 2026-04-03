@@ -1,0 +1,36 @@
+{
+  "run_id": "seed63_J_time_weather_causal_H12",
+  "seed": 63,
+  "mode": "J_time_weather_causal",
+  "view_key": "traffic_time_weather",
+  "H": 12,
+  "lambda": 1.0,
+  "best_val_loss": 0.26880652871396804,
+  "model": "CausalSTGCN",
+  "saved_at": "2026-03-16T17:43:58.381042",
+  "graph_alignment": {
+    "train": {
+      "num_samples": 4076,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 47.10157016683023
+    },
+    "val": {
+      "num_samples": 562,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 46.90213523131673
+    },
+    "test": {
+      "num_samples": 1149,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 47.39947780678851
+    }
+  },
+  "probe_summary": {
+    "global_node_std": 0.0,
+    "global_node_abs_mean": 0.016183067113161087,
+    "gate_mean": 0.9999001026153564
+  }
+}

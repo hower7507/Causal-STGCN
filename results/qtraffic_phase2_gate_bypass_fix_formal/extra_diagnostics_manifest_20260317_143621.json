@@ -1,0 +1,9 @@
+{
+  "saved_at": "2026-03-17T14:36:21.031002",
+  "rolling_auc_proxy_path": "results/qtraffic_phase2_gate_bypass_fix_formal/rolling_auc_proxy_20260317_143621.csv",
+  "lag_snapshot_diagnostics_path": "results/qtraffic_phase2_gate_bypass_fix_formal/lag_snapshot_diagnostics_20260317_143621.csv",
+  "lag_summary_diagnostics_path": "results/qtraffic_phase2_gate_bypass_fix_formal/lag_summary_diagnostics_20260317_143621.csv",
+  "lag_recompute_match_path": "results/qtraffic_phase2_gate_bypass_fix_formal/lag_recompute_match_20260317_143621.csv",
+  "gate_batch_diagnostics_path": "results/qtraffic_phase2_gate_bypass_fix_formal/gate_batch_diagnostics_20260317_143621.csv",
+  "gate_summary_diagnostics_path": "results/qtraffic_phase2_gate_bypass_fix_formal/gate_summary_diagnostics_20260317_143621.csv"
+}

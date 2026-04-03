@@ -1,0 +1,8 @@
+{
+  "run_id": "seed84_G_time_query_static_H36",
+  "mode": "G_time_query_static",
+  "probe_summary": {
+    "local_node_std": 0.010897940024733543,
+    "local_node_abs_mean": 0.18025696277618408
+  }
+}

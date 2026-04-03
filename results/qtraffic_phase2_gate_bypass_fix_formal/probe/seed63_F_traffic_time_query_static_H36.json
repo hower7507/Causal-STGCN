@@ -1,0 +1,10 @@
+{
+  "run_id": "seed63_F_traffic_time_query_static_H36",
+  "mode": "F_traffic_time_query_static",
+  "probe_summary": {
+    "local_node_std": 0.01268818136304617,
+    "local_node_abs_mean": 0.04971574991941452,
+    "global_node_std": 0.0,
+    "global_node_abs_mean": 0.014978987164795399
+  }
+}

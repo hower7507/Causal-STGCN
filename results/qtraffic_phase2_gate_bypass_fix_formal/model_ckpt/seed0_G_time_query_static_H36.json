@@ -1,0 +1,16 @@
+{
+  "run_id": "seed0_G_time_query_static_H36",
+  "seed": 0,
+  "mode": "G_time_query_static",
+  "view_key": "traffic_time_query",
+  "H": 36,
+  "lambda": 0.0,
+  "best_val_loss": 0.2918854190243615,
+  "model": "STGCN",
+  "saved_at": "2026-03-15T02:24:24.367734",
+  "graph_alignment": {},
+  "probe_summary": {
+    "local_node_std": 0.015714241191744804,
+    "local_node_abs_mean": 0.06640447676181793
+  }
+}

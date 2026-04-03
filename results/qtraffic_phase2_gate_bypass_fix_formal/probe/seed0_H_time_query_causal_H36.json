@@ -1,0 +1,9 @@
+{
+  "run_id": "seed0_H_time_query_causal_H36",
+  "mode": "H_time_query_causal",
+  "probe_summary": {
+    "local_node_std": 0.170622318983078,
+    "local_node_abs_mean": 0.2870018184185028,
+    "gate_mean": 0.4029630124568939
+  }
+}

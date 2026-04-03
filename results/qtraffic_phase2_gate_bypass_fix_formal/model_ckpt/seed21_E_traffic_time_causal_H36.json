@@ -1,0 +1,34 @@
+{
+  "run_id": "seed21_E_traffic_time_causal_H36",
+  "seed": 21,
+  "mode": "E_traffic_time_causal",
+  "view_key": "traffic_time",
+  "H": 36,
+  "lambda": 0.9,
+  "best_val_loss": 0.29099363419744706,
+  "model": "CausalSTGCN",
+  "saved_at": "2026-03-15T13:23:39.819352",
+  "graph_alignment": {
+    "train": {
+      "num_samples": 4052,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 47.12290227048371
+    },
+    "val": {
+      "num_samples": 538,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 46.652416356877325
+    },
+    "test": {
+      "num_samples": 1125,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 46.864
+    }
+  },
+  "probe_summary": {
+    "gate_mean": 0.3661648631095886
+  }
+}

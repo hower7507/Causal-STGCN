@@ -1,0 +1,17 @@
+﻿scenario,model,hop_bucket,mean_signed_delta,mean_abs_delta
+query_shock,dynamic,hop_0,0.0400239549999241,0.0688197465497069
+query_shock,dynamic,hop_1,-0.0061660851677061,0.0097981921571772
+query_shock,dynamic,hop_2,-0.0029583026321233,0.0044632599274336
+query_shock,dynamic,hop_3plus,0.0,0.0
+query_shock,static,hop_0,0.0014704218774568,0.0095600173954153
+query_shock,static,hop_1,0.0,0.0
+query_shock,static,hop_2,0.0,0.0
+query_shock,static,hop_3plus,0.0,0.0
+speed_reduction,dynamic,hop_0,-1.542707100219559,1.8951733829453588
+speed_reduction,dynamic,hop_1,0.0301953434554889,0.3433411070145666
+speed_reduction,dynamic,hop_2,0.0004474485313039,0.122581478965003
+speed_reduction,dynamic,hop_3plus,-0.0006734337108227,0.002650115007782
+speed_reduction,static,hop_0,-1.9901875669602305,2.270876189693809
+speed_reduction,static,hop_1,-0.0405885680547726,0.2627750118263066
+speed_reduction,static,hop_2,0.0065849179616179,0.1423048065043985
+speed_reduction,static,hop_3plus,-0.0011499689901484,0.0059999311306455

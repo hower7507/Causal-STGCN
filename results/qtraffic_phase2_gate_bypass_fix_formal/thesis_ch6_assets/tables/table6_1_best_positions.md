@@ -1,0 +1,5 @@
+| position | best_deep_mode | best_deep_label | best_deep_MAE | best_deep_RMSE | best_deep_MAPE | best_traditional_mode | best_traditional_label | best_traditional_MAE | best_traditional_RMSE | best_traditional_MAPE | MAE_gain_pct | RMSE_gain_pct | MAPE_gain_pct |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| H=12 / step=12 | E_traffic_time_causal | E 时间-动态图 | CausalSTGCN | 3.8161 | 6.0363 | 0.1502 | A_traffic_only | ARIMA | 4.0631 | 6.3760 | 0.1646 | 6.0799 | 5.3279 | 8.7504 |
+| H=36 / step=12 | H_time_query_causal | H query-动态图 | CausalSTGCN | 3.6830 | 5.6727 | 0.1463 | A_traffic_only | ARIMA | 4.0857 | 6.4137 | 0.1661 | 9.8564 | 11.5535 | 11.9252 |
+| H=36 / step=36 | H_time_query_causal | H query-动态图 | CausalSTGCN | 4.0130 | 6.1662 | 0.1627 | D_traffic_causal | HA | 4.3668 | 6.7686 | 0.1809 | 8.1007 | 8.8993 | 10.0872 |

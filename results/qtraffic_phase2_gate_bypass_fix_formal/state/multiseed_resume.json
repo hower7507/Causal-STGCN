@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-03-17T06:17:44.585909",
+  "epochs": 80,
+  "lambdas": [
+    0.0,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "completed_settings": 100,
+  "completed_seeds": [
+    0,
+    21,
+    42,
+    63,
+    84
+  ],
+  "selected_modes": [
+    "A_traffic_only",
+    "B_traffic_time",
+    "C_traffic_time_query",
+    "D_traffic_causal",
+    "E_traffic_time_causal",
+    "F_traffic_time_query_static",
+    "G_time_query_static",
+    "H_time_query_causal",
+    "I_time_weather_static",
+    "J_time_weather_causal"
+  ],
+  "selected_horizons": [
+    12,
+    36
+  ]
+}

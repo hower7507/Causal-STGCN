@@ -1,0 +1,38 @@
+{
+  "run_id": "seed84_C_traffic_time_query_H12",
+  "seed": 84,
+  "mode": "C_traffic_time_query",
+  "view_key": "traffic_time_weather_query",
+  "H": 12,
+  "lambda": 0.3,
+  "best_val_loss": 0.2619642416636149,
+  "model": "CausalSTGCN",
+  "saved_at": "2026-03-16T20:13:33.036337",
+  "graph_alignment": {
+    "train": {
+      "num_samples": 4076,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 47.10157016683023
+    },
+    "val": {
+      "num_samples": 562,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 46.90213523131673
+    },
+    "test": {
+      "num_samples": 1149,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 47.39947780678851
+    }
+  },
+  "probe_summary": {
+    "local_node_std": 0.18151964247226715,
+    "local_node_abs_mean": 0.24056363105773926,
+    "global_node_std": 0.0,
+    "global_node_abs_mean": 0.013841837644577026,
+    "gate_mean": 0.5136723518371582
+  }
+}

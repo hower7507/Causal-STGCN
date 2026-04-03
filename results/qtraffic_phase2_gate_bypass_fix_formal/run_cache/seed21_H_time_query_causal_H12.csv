@@ -1,0 +1,6 @@
+mode,view_key,H_trained,report_step,lambda,model,best_val_loss,use_dyn,MAE,RMSE,MAPE,keep%,seed
+H_time_query_causal,traffic_time_query,12,12,0.0,CausalSTGCN,0.2692228870259391,True,3.86940598487854,5.986172199249268,0.1521005779504776,100.0,21
+H_time_query_causal,traffic_time_query,12,12,0.0,DCRNN,0.2695765594641368,False,3.8905961513519287,6.018885612487793,0.15987299382686615,100.0,21
+H_time_query_causal,traffic_time_query,12,12,0.0,HA,,False,4.389371395111084,6.7794318199157715,0.17981813848018646,100.0,21
+H_time_query_causal,traffic_time_query,12,12,0.0,ARIMA,,False,4.06311559677124,6.376037120819092,0.16455253958702087,100.0,21
+H_time_query_causal,traffic_time_query,12,12,0.0,LastValue,,False,4.8844895362854,7.872481346130371,0.18883347511291504,100.0,21

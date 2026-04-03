@@ -1,0 +1,36 @@
+{
+  "run_id": "seed21_H_time_query_causal_H12",
+  "seed": 21,
+  "mode": "H_time_query_causal",
+  "view_key": "traffic_time_query",
+  "H": 12,
+  "lambda": 0.0,
+  "best_val_loss": 0.2692228870259391,
+  "model": "CausalSTGCN",
+  "saved_at": "2026-03-15T14:51:02.483021",
+  "graph_alignment": {
+    "train": {
+      "num_samples": 4076,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 47.10157016683023
+    },
+    "val": {
+      "num_samples": 562,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 46.90213523131673
+    },
+    "test": {
+      "num_samples": 1149,
+      "max_future_leak": 0.0,
+      "max_graph_lag": 95.0,
+      "mean_graph_lag": 47.39947780678851
+    }
+  },
+  "probe_summary": {
+    "local_node_std": 0.01504003070294857,
+    "local_node_abs_mean": 0.2316468209028244,
+    "gate_mean": 9.983708150684834e-05
+  }
+}

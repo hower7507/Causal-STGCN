@@ -1,0 +1,2 @@
+dynamic_graph_source,auc_proxy_mean_score,auc_proxy_max_score,auc_proxy_last_snapshot,legacy_auc_proxy_same_labels,legacy_auc_proxy_mean_score,legacy_auc_proxy_max_score,legacy_auc_proxy_last_score,legacy_proxy_shape,pos_ratio,num_edges
+granger_rolling_cached:A_dynamic_granger_roll_500nodes_lag3_k15_f1p5_stride96_hist672.npz,0.8158063420694834,0.8158089658810526,0.7636189179025206,0.8889580870055179,0.8958615195001344,0.9104710128704959,0.8889580870055179,"(20, 500, 500)",0.00218436873747495,249500

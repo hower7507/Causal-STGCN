@@ -1,0 +1,18 @@
+{
+  "run_id": "seed42_F_traffic_time_query_static_H36",
+  "seed": 42,
+  "mode": "F_traffic_time_query_static",
+  "view_key": "traffic_time_weather_query",
+  "H": 36,
+  "lambda": 0.0,
+  "best_val_loss": 0.29137757751676774,
+  "model": "STGCN",
+  "saved_at": "2026-03-16T01:54:26.883508",
+  "graph_alignment": {},
+  "probe_summary": {
+    "local_node_std": 0.011959142982959747,
+    "local_node_abs_mean": 0.07404982298612595,
+    "global_node_std": 0.0,
+    "global_node_abs_mean": 0.012602332979440689
+  }
+}
