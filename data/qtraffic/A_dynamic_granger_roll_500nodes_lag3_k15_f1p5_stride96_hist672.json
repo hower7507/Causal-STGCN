@@ -1,0 +1,21 @@
+{
+  "graph_window": 672,
+  "snapshot_stride": 96,
+  "graph_source_range": [
+    0,
+    5855
+  ],
+  "snapshot_count": 62,
+  "snapshot_end_times_preview": [
+    11,
+    95,
+    191,
+    287,
+    383,
+    479,
+    575,
+    671,
+    767,
+    863
+  ]
+}

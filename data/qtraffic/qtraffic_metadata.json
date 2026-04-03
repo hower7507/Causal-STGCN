@@ -1,0 +1,55 @@
+{
+  "version": "qtraffic-fixed-v3-strict",
+  "target_nodes": 500,
+  "slots_per_day": 96,
+  "slot_minutes": 15,
+  "start_date": "2017-04-01",
+  "end_date": "2017-05-31",
+  "t_steps": 5856,
+  "days_in_tensor": 61,
+  "n_nodes": 500,
+  "train_ratio": 0.7,
+  "train_t_steps": 4099,
+  "dynamic_graph_source": "train_only",
+  "dynamic_graph_segments": 20,
+  "query_spatialized": true,
+  "speed_stats": {
+    "t_steps": 5856,
+    "duplicate_records": 93696,
+    "conflict_cells": 81984,
+    "max_conflict_diff": 57.49396426662,
+    "missing_ratio": 0.0
+  },
+  "query_stats": {
+    "query_days_used": 61,
+    "query_days_missing": 0,
+    "query_days_total": 61,
+    "query_spatialized": true,
+    "query_coord_cache_size": 256108,
+    "query_total_lines": 114657259,
+    "query_used_lines": 113901243,
+    "query_nonzero_ratio": 0.24038831967213115,
+    "query_normalize": "log1p"
+  },
+  "stage2": {
+    "weather_raw_feature_names": [
+      "temperature",
+      "precipitation",
+      "wind_speed"
+    ],
+    "weather_raw_std": [
+      6.533267021179199,
+      0.0,
+      7.825676441192627
+    ],
+    "weather_kept_feature_names": [
+      "temperature",
+      "wind_speed"
+    ],
+    "weather_removed_feature_names": [
+      "precipitation"
+    ],
+    "weather_clean_dim": 2,
+    "x_fused_full_dim": 7
+  }
+}
